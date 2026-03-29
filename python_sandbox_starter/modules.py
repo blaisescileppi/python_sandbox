@@ -15,3 +15,14 @@ print(timestamp)
 from camelcase import CamelCase
 c = CamelCase()
 print(c.hump('hello there world'))
+
+
+# Import custom module
+import validator
+from validator import validate_email
+
+email = 'test@test.com'
+if validate_email(email):
+    print('email is valid')
+else:
+    print('email is bad')
