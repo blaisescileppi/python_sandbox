@@ -13,3 +13,27 @@ VARIABLE RULES:
   - Must start with a letter or an underscore
   - Can have numbers but can not start with one
 """
+
+''' multiline comment '''
+# single line comments
+
+x = 1 # int
+y = 2.5 # float
+name = "john" #string
+is_cool = True # bool must be uppercase
+
+# multiple assignment
+x, y, name, isCool = (1, 2.5, 'john', True)
+
+#Output
+print('Hello')
+print(x)
+print(x, y, name)
+
+#basic math
+a = x + y
+print(type(x))
+
+# casting
+y = int(y)
+print(type(y), y)
